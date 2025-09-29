@@ -1,0 +1,48 @@
+Task: Network Traffic Capture and Analysis using Wireshark
+
+1. INTRODUCTION
+
+This practical exercise was conducted to learn how to capture, filter, and analyze network packets using Wireshark, a widely used network protocol analyzer. The goal was to generate network traffic, identify different protocols, and summarize the packet details.
+
+2. Steps Performed
+
+STEP 1 – START CAPTURE
+
+Wireshark was opened, and the active network interface (Wi-Fi/Ethernet) was selected.
+
+Packet capturing was started by clicking the capture icon.
+
+STEP 2 – GENERATE TRAFFIC
+
+A website (example.com) was opened in the browser.
+
+A ping google.com command was also executed to create additional network traffic.
+
+STEP 3 – STOP CAPTURE
+
+After approximately 1 minute, the capture process was stopped to analyze the recorded packets.
+
+STEP 4 – FILTER PACKETS BY PROTOCOL
+
+Filters were applied to view specific traffic types:
+
+http → showed website browsing traffic
+
+
+dns → showed domain resolution queries
+
+tcp → showed underlying transport protocol packets
+
+STEP 5 – IDENTIFY PROTOCOLS
+
+At least three different protocols were identified in the capture:
+
+DNS – Resolving domain names like google.com.
+
+HTTP – Web traffic from browsing.
+
+TCP – Transport-level communication for reliable data transfer.
+
+STEP 6 – EXPORT CAPTURE
+
+The captured traffic was exported as a .pcap file 
